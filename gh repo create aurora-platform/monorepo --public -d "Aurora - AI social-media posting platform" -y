@@ -1,0 +1,14 @@
+gh repo create aurora-platform/monorepo --public -d "Aurora - AI social-media posting platform" 
+-y
+
+cd aurora
+git init
+git add .
+git commit -m "feat(init): Aurora v0.1.0-alpha"
+git branch -M main
+git remote add origin https://github.com/aurora-platform/monorepo.git
+git push -u origin main
+git tag v0.1.0-alpha
+git push origin v0.1.0-alpha
+git tag v0.1.0-alpha
+git push origin v0.1.0-alpha
